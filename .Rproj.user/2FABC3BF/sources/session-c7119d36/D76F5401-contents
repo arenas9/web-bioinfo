@@ -6,7 +6,8 @@ project:
     - index.qmd
     - about.qmd
     - results/2026-01-29/Practica1.qmd
-    - results/2026-02-10/Practica2.qmd
+    - results/2026-02-03/Practica2.qmd
+    - results/2026-02-10/Practica3.qmd
     - results/2026-02-17/Practica4.qmd
     - results/2026-02-24/Practica5.qmd
     - results/2026-03-03/Practica6.qmd
@@ -30,8 +31,10 @@ website:
     contents: 
       - href: results/2026-01-29/Practica1.qmd
         text: "Práctica 1"
-      - href: results/2026-02-10/Practica2.qmd
+      - href: results/2026-02-03/Practica2.qmd
         text: "Práctica 2"
+      - href: results/2026-02-10/Practica3.qmd
+        text: "Práctica 3"
       - href: results/2026-02-17/Practica4.qmd
         text: "Práctica 4"
       - href: results/2026-02-24/Practica5.qmd
