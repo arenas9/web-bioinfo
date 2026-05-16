@@ -1,0 +1,2 @@
+"0","gff_limpio <- gff[, !columnas_invariables]"
+"0","head(gff_limpio)"

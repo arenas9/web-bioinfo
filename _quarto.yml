@@ -1,0 +1,64 @@
+execute:
+  freeze: auto
+project:
+  type: website
+  render: 
+    - index.qmd
+    - about.qmd
+    - results/2026-01-29/Practica1.qmd
+    - results/2026-02-10/Practica2.qmd
+    - results/2026-02-17/Practica4.qmd
+    - results/2026-02-24/Practica5.qmd
+    - results/2026-03-03/Practica6.qmd
+    - results/2026-03-10/Practica7.qmd
+    - results/2026-03-24/Practica8.qmd
+    - results/2026-03-31/Practica9.qmd
+    - results/2026-04-15/Practica9 continuacion.qmd
+    - results/2026-04-21/Practica10.qmd
+    - results/2026-04-28/Practica11.qmd
+    - results/2026-05-05/Practica12.qmd
+
+website:
+  title: "web"
+  navbar:
+    tittle: "Guiones"
+    left:
+      - href: index.qmd
+        text: Inicio
+      - about.qmd
+  sidebar: 
+    contents: 
+      - href: results/2026-01-29/Practica1.qmd
+        text: "Práctica 1"
+      - href: results/2026-02-10/Practica2.qmd
+        text: "Práctica 2"
+      - href: results/2026-02-17/Practica4.qmd
+        text: "Práctica 4"
+      - href: results/2026-02-24/Practica5.qmd
+        text: "Práctica 5"
+      - href: results/2026-03-03/Practica6.qmd
+        text: "Práctica 6"
+      - href: results/2026-03-10/Practica7.qmd
+        text: "Práctica 7"
+      - href: results/2026-03-24/Practica8.qmd
+        text: "Práctica 8"
+      - href: results/2026-03-31/Practica9.qmd
+        text: "Práctica 9"
+      - href: results/2026-04-15/Practica9 continuacion.qmd
+        text: "Continuación Práctica 9"
+      - href: results/2026-04-21/Practica10.qmd
+        text: "Práctica 10"
+      - href: results/2026-04-28/Practica11.qmd
+        text: "Práctica 11"
+      - href: results/2026-05-05/Practica12.qmd
+        text: "Práctica 12"
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+editor: visual
+

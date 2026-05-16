@@ -1,0 +1,5 @@
+"0",""
+"0","gene$longitud   <- gene$end - gene$start + 1"
+"0","mrna$longitud   <- mrna$end - mrna$start + 1"
+"0","exon$longitud   <- exon$end - exon$start + 1"
+"0","region$longitud <- region$end - region$start + 1"

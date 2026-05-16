@@ -1,0 +1,5 @@
+"0","# Observa que asignamos el resultado del ordenamiento al mismo objeto que"
+"0","# estamos ordenando, para guardar el resultado sin tener que generar otro objeto."
+"0","library(knitr)"
+"0","genomas <- genomas[order(genomas$Assembly.Release.Date), ]"
+"0","kable(genomas) "

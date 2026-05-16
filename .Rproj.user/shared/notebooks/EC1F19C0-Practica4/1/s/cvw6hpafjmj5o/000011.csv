@@ -1,0 +1,2 @@
+"0","filas_repetidas <- genomas[duplicated(genomas), ]"
+"0","print(filas_repetidas)"

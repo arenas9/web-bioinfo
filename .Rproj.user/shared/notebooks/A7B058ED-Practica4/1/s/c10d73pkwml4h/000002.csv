@@ -1,0 +1,5 @@
+"0","if [ ! -e  trypanosoma_annotated.txt ]; then
+   ~/bin/datasets summary genome taxon Trypanosoma --annotated --as-json-lines | \
+   ~/bin/dataformat tsv genome --fields \
+      accession,organism-name,assminfo-release-date,assminfo-level,assmstats-atgc-count,annotinfo-featcount-gene-total,assminfo-type,assminfo-status > trypanosoma_annotated.txt
+fi"

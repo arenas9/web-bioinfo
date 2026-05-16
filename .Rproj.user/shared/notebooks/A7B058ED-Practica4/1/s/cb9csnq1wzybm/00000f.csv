@@ -1,0 +1,1 @@
+"0","columnas_invariables <- sapply(gff, function(x) length(unique(x)) == 1)"

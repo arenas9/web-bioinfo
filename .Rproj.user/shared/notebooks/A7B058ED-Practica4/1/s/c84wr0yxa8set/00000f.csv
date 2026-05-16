@@ -1,0 +1,7 @@
+"0","cds$longitud <- cds$end - cds$start + 1"
+"0","resumen <- data.frame("
+"0","   tipo       = 'CDS',"
+"0","   número     = nrow(cds),"
+"0","   long.Media = mean(cds$longitud),"
+"0","   long.SD    = sd(cds$longitud)"
+"0",")"

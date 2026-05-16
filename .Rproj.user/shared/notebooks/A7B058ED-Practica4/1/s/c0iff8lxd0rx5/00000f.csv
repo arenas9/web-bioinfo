@@ -1,0 +1,7 @@
+"0","library(dplyr)"
+"0","genes_por_cromosomaysentido <- gff %>%"
+"0","  dplyr::filter(type == 'gene') %>%      "
+"0","  group_by(seqid, strand) %>%             "
+"0","  summarise(total_genes = n())    "
+"0",""
+"0","print(genes_por_cromosomaysentido)"

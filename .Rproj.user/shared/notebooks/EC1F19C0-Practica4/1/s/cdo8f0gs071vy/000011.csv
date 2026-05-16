@@ -1,0 +1,11 @@
+"0","# Aquí usamos ""cumsum()"" para obtener la suma acumulada del número de bases"
+"0","# secuenciadas."
+"0","plot(x = genomas$Assembly.Release.Date,"
+"0","     y = cumsum(genomas$Assembly.Stats.ATGC.Count),"
+"0","     type = 'b',"
+"0","     xlab = 'Fecha de publicación',"
+"0","     ylab = 'Longitud total secuenciada (bp)',"
+"0","     main = 'Genomas anotados de Trypanosoma')"
+"2","Error in .rs.createNotebookGraphicsDevice(filename, width, height, dpi,  : 
+  object 'png' not found
+"

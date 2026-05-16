@@ -1,0 +1,6 @@
+"0","#| messages: false"
+"0",""
+"0","library(knitr)"
+"0","genomas <- read.table('trypanosoma_annotated.txt',"
+"0","                      header = TRUE, sep = '\t')"
+"0","kable(genomas) "
